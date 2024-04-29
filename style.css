@@ -1,0 +1,54 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    margin: 0;
+}
+.top-header{
+    display: flex;
+    justify-content: space-around;    
+    background-color: rgba(0, 0, 0, 0.096);
+    width: 100%;
+    height: 25px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.315);
+}
+.contct-us{
+    width: 40%;
+    height: auto;
+    padding: 3px;
+    margin-left: 15px;
+}
+.free-shiping{
+    width: 40%;
+    height: auto;
+    padding: 3px;
+}
+
+.location{
+    width: 40%;
+    height: auto;
+    padding: 3px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-bottom: 3px ridge gray ;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    list-style: none;
+}
