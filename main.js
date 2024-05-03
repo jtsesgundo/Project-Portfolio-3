@@ -42,19 +42,96 @@ const showCart = () =>{
 const showProducts = () => {
     items.forEach((item) =>{
         itemContainer.innerHTML +=`
-        <div class="col-md-3">
-            <div class="card">
-                <img src="${item.product_image}" width="100%"alt="">
-                <div class="card-body">
-                    <h5 class="card-title">${item.product_name}</h5>
-                    <h6>${item.product_price}</h6>
-                    <p>${item.product_desc}</p>
-                    <button class="btn btn-primary" onclick="addToCart('${item.product_image}','${item.product_name}','${item.product_price}','${item.product_desc}');">Add To Cart</button>
+            <div class="col-md-3 col-lg-3">
+                <div class="card">
+                    <div class="container box image-box">
+                        <img src="${item.product_image}" alt="" class="card-img-top">                                  
+                    </div>
+                    <div class="card-body">
+                        <h6 class="item-name">
+                        ${item.product_name}
+                        </h6>
+                        <h6>${item.product_price}</h6>
+                        
+                    <div class="card-footer text-center">
+                    <button class="addto-basket btn" onclick="addToCart('${item.product_image}','${item.product_name}','${item.product_price}','${item.product_desc}');">Check Out</button>
+                    </div>
+                    </div>
                 </div>
             </div>
-        </div>      
         `;       
     })
 }
 showCart();
 showProducts();
+
+
+
+
+
+
+let todo = [];
+
+if(localStorage.getItem("todo")){
+    todo = localStorage.getItem("todo").split(",");
+}
+
+let container = document.querySelector("#todo-list");
+
+// todo.forEach(
+//     (task) => {
+//         container.innerHTML += `<li>${task}</li>`;
+//     }
+// );
+
+const showList = () => {
+    container.innerHTML = "";
+    todo.forEach(
+    (task) => {
+        container.innerHTML += `<li>${task}</li>`;
+    }
+    );
+}
+
+const addTodo = () => {
+    let newItem = document.querySelector("#create-todo").value;
+    todo.push(newItem);
+    // alert(todo);
+    // container.innerHTML += `<li>${newItem}</li>`;
+    // container.innerHTML = "";
+    // todo.forEach(
+    // (task) => {
+    //     container.innerHTML += `<li>${task}</li>`;
+    // }
+    // );
+    showList();
+    localStorage.setItem("todo", todo);
+
+}
+
+const removeTodo = () => {
+    todo.pop();
+    // container.innerHTML = "";
+    // todo.forEach(
+    // (task) => {
+    //     container.innerHTML += `<li>${task}</li>`;
+    // }
+    // );
+    showList();
+    localStorage.setItem("todo", todo);
+}
+
+const search = () => {
+    let input = document.querySelector("#input").value.toLowerCase(); 
+
+    let filterlist = todo.filter(task => task.toLowerCase().includes(input)); 
+
+    container.innerHTML = ''; 
+
+    filterlist.forEach(task => {
+        container.innerHTML += `<li>${task}</li>`; 
+    }
+    );
+};
+
+showList();
