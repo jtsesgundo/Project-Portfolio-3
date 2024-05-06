@@ -63,6 +63,38 @@ const items = [
         product_category: "Men, Women, Kids",
         product_image: "img/8.Pringles x Crocs Classic Clog.webp",
     },
+    {
+        product_no: 9,
+        product_name: "Classic Crush Clog",
+        product_price: "₱ 1,999",
+        product_desc: "Description",
+        product_category: "Men, Women, Kids",
+        product_image: "img/9.Classic Crush Clog in Black.webp",
+    },
+    {
+        product_no: 10,
+        product_name: "Crush High Shine Clog",
+        product_price: "₱ 4,745",
+        product_desc: "Description",
+        product_category: "Men, Women, Kids",
+        product_image: "img/10.Crush High Shine Clog.webp",
+    },
+    {
+        product_no: 11,
+        product_name: "Classic Slide in Black",
+        product_price: "₱ 1,596",
+        product_desc: "Description",
+        product_category: "Men, Women, Kids",
+        product_image: "img/11.Classic Slide in Black.webp",
+    },
+    {
+        product_no: 12,
+        product_name: "Translucent Marbled",
+        product_price: "₱ 1,999",
+        product_desc: "Description",
+        product_category: "Men, Women, Kids",
+        product_image: "img/12.Classic Translucent Marbled Clog in Sulphur Multi.webp",
+    },
 
 
 

@@ -103,17 +103,10 @@ nav{
     position: sticky;
     width: 100%;
     height: 70px;
-    background-color: #ffffff8f;
+    background-color: #ffffff;
     border-bottom: 2px solid rgba(0, 0, 0, 0.74);
 
 }
-
-/* .container-fluid{
-    display: flex;
-    align-items:center ;
-    width: 100%;
-    height: 70px;
-} */
 
 #crocsnavbar{
     width: 60%;
@@ -121,6 +114,11 @@ nav{
     flex-direction: row;
     justify-content: space-evenly;
 
+}
+
+.nav-link:hover{
+    margin: 0;
+    border-bottom: 2px solid black;
 }
 
 ul{
@@ -167,17 +165,10 @@ ul{
     
 }
 
-#input{
-    background: transparent;
-    border: none
-    border-radius
+.btn{
+    border: 1px sold black;
 }
-
-.fa-magnifying-glass{
-    background: transparent;
-    border: transparent;
-}
-.search-form{
+.input-group{
     font-size: 15px;
     padding-left: 10px;
     border: 1px solid rgba(0, 0, 0, 0.432);
@@ -202,7 +193,7 @@ ul{
 }
 
 .sort-list{
-    width: 300px;
+    width: 300px; 
     display: flex;
     flex-direction: column;
     background-color: blue;
@@ -212,6 +203,9 @@ ul{
 .allProducts{
     width: 100%;
 }
+ .modal-header{
+    background-color: aqua;
+ }
 
 .image-box img{
     border-bottom: 3px solid rgba(0, 0, 0, 0.288);
@@ -221,19 +215,130 @@ ul{
     box-shadow: 2px 5px 4px 5px #888888;
 }
 
-.side-barContainer{
-    width: 30%;
-    height: 600px;
-    background-color: aquamarine;
+#shopMore{
+    background-color: aqua;
 }
 
-.side-bar {
+.checkoutNow {
+    color: rgba(255, 0, 0, 0.897);
+}
+
+.accordion{
+    width: 100%;
+    height: 200px;
+}
+
+
+.side-barContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 600px;
+}
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.sidebar-filter{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    width: 250px;
+    width: 90%;
     height: 50px;
+    font-size: 10px;
+    margin-top: 10px;
+    padding: 0px 10px;
+    background-color: #88888810;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.068);
+    
 }
+
+.sidebar-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.788);
+}
+
+.sidebar-colors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.788);
+}
+
+.sidebar-sizes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.788);
+}
+
+.sidebar-womens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.788);
+}
+
+.sidebar-mens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.788);
+}
+.sidebar-kids{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.788);
+}
+
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border: 2px solid black;
+    width: 80%;
+}
+
 .item-name{
     color: rgba(4, 92, 255, 0.822);
     font-size: small;
@@ -244,18 +349,19 @@ ul{
     background-color: rgba(69, 243, 185, 0.267);
 }
 
-.aboutUscontainer{
+.whycrocs{
+    display: flex;
 
-    max-width: 1100px;
     height: 580px;
     background-image: url(./img/about-us-banner-cab.jpg);
     background-repeat: no-repeat;
 }
 
-.about-us{
+.whycrocs-body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
     width: 500px;
     height: 580px;
     margin-left: 50px;
@@ -265,6 +371,61 @@ ul{
 h4{
     font-size: 50px;
     color: rgba(255, 255, 255, 0.877);
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.952);
+
+}
+
+.footer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 300px;
+    color: rgba(255, 255, 255, 0.877);
+    font-size: 10px;
+    letter-spacing: 1px;
+    list-style: none;
+}
+
+.ourpromise{
+    margin: 10px;
+    width: 180px;
+    height: 200px;
+}
+
+.ourvision{
+    width: 180px;
+    height: 200px;
+}
+
+.ourvalue{
+    width: 180px;
+    height: 200px;
+}
+
+.connecttous{
+    width: 180px;
+    height: 200px;
+
+}
+.connecttous p{
+    color: #ffffff;
+}
+
+.connecttous p:hover{
+    color: aqua;
+    transition: 1s;
 }
 
 
