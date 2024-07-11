@@ -5,7 +5,7 @@ const items = [
         product_price: "₱ 4,796",
         product_desc: "Description",
         product_category: "Men, Women, Kids",
-        product_image: "img/1.NBA All Star Echo Clog.JPG",
+        product_image: "./img/1.NBA All Star Echo Clog.JPG",
     },
     {
         product_no: 2,
@@ -13,7 +13,7 @@ const items = [
         product_price: "₱ 1,596",
         product_desc: "Description",
         product_category: "Men, Women, Kids",
-        product_image: "img/2.Classic Sandal in Black.webp",
+        product_image: "./img/2.Classic Sandal in Black.webp",
     },
     {
         product_no: 3,
@@ -21,7 +21,7 @@ const items = [
         product_price: "₱ 1,999",
         product_desc: "Description",
         product_category: "Men, Women, Kids",
-        product_image: "img/3.Classic Clog in Sulphur.webp",
+        product_image: "./img/3.Classic Clog in Sulphur.webp",
     },
     {
         product_no: 4,
@@ -29,7 +29,7 @@ const items = [
         product_price: "₱ 1,999",
         product_desc: "Description",
         product_category: "Men, Women, Kids",
-        product_image: "img/4.Classic Spray Dye Clog in White Multi.webp",
+        product_image: "./img/4.Classic Spray Dye Clog in White Multi.webp",
     },
     {
         product_no: 5,
@@ -37,7 +37,7 @@ const items = [
         product_price: "₱ 1,499",
         product_desc: "Description",
         product_category: "Men, Women, Kids",
-        product_image: "img/5.Classic Spray Dye Sandal in White.webp",
+        product_image: "./img/5.Classic Spray Dye Sandal in White.webp",
     },
     {
         product_no: 6,
@@ -45,7 +45,7 @@ const items = [
         product_price: "₱ 3,745",
         product_desc: "Description",
         product_category: "Men, Women, Kids",
-        product_image: "img/6.Classic Crush Slide in Bone.webp",
+        product_image: "./img/6.Classic Crush Slide in Bone.webp",
     },
     {
         product_no: 7,
@@ -53,7 +53,7 @@ const items = [
         product_price: "₱ 2,396",
         product_desc: "Description",
         product_category: "Men, Women, Kids",
-        product_image: "img/7.Kids Jurassic World Classic Clog in Sand.webp",
+        product_image: "./img/7.Kids Jurassic World Classic Clog in Sand.webp",
     },
     {
         product_no: 8,
@@ -61,7 +61,7 @@ const items = [
         product_price: "₱ 2,396",
         product_desc: "Description",
         product_category: "Men, Women, Kids",
-        product_image: "img/8.Pringles x Crocs Classic Clog.webp",
+        product_image: "./img/8.Pringles x Crocs Classic Clog.webp",
     },
     {
         product_no: 9,
@@ -69,7 +69,7 @@ const items = [
         product_price: "₱ 1,999",
         product_desc: "Description",
         product_category: "Men, Women, Kids",
-        product_image: "img/9.Classic Crush Clog in Black.webp",
+        product_image: "./img/9.Classic Crush Clog in Black.webp",
     },
     {
         product_no: 10,
@@ -77,7 +77,7 @@ const items = [
         product_price: "₱ 4,745",
         product_desc: "Description",
         product_category: "Men, Women, Kids",
-        product_image: "img/10.Crush High Shine Clog.webp",
+        product_image: "./img/10.Crush High Shine Clog.webp",
     },
     {
         product_no: 11,
@@ -85,7 +85,7 @@ const items = [
         product_price: "₱ 1,596",
         product_desc: "Description",
         product_category: "Men, Women, Kids",
-        product_image: "img/11.Classic Slide in Black.webp",
+        product_image: "./img/11.Classic Slide in Black.webp",
     },
     {
         product_no: 12,
@@ -93,7 +93,7 @@ const items = [
         product_price: "₱ 1,999",
         product_desc: "Description",
         product_category: "Men, Women, Kids",
-        product_image: "img/12.Classic Translucent Marbled Clog in Sulphur Multi.webp",
+        product_image: "./img/12.Classic Translucent Marbled Clog in Sulphur Multi.webp",
     },
 
 
